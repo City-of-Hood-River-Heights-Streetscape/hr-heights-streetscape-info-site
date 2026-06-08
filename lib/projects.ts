@@ -467,7 +467,7 @@ export const projects: Project[] = [
       description:
         "Reconstruction of east/west streets to provide new sidewalks and other intersection and infrastructure improvements. These streets will become one-way, alternating between eastbound and westbound traffic.",
       rationale:
-        "Improve east/west streets with new sidewalks and amenities to complete street improvements in the Heights. One-way conversion allows on-street parking along both sides while providing wider sidewalks.",
+        "Improve east/west streets with new sidewalks and amenities to complete street improvements in the Heights. One-way conversion allows on-street parking along both sides while providing wider sidewalks..",
       features: [
         "One-way street conversions (alternating directions)",
         "New sidewalks on both sides",
