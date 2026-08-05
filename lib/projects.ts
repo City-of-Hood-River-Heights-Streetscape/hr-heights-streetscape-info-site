@@ -57,14 +57,14 @@ export const projects: Project[] = [
     id: "east-west-crossings",
     slug: "east-west-crossings-13th",
     category: "pedestrian",
-    costRange: "$1.3M - $1.7M",
+    costRange: "$2.8M (Including underground utilities)",
     priorityLevel: 3,
     complexityLevel: 1,
     streets: ["13th Street"],
     intersections: ["13th & Taylor Ave", "13th & A Street"],
     implementationOrder: 1,
     currentStatus: "implementationDesign",
-    estimatedCompletion: "spring2027",
+    estimatedCompletion: "Fall 2027",
     sitemapImage: "/images/projects/project-1-sitemap.png",
     image: "/images/projects/east-west-crossings-13th.png",
     imageTag: "example",
@@ -72,9 +72,9 @@ export const projects: Project[] = [
     en: {
       name: "Key East/West Crossings on 13th Street",
       description:
-        "Curb extensions, Rectangular Rapid Flashing Beacons (RRFBs), and other intersection improvements to improve access and safety at Taylor Avenue and A Street crossings on 13th Street.",
+        "Curb extensions, Rectangular Rapid Flashing Beacons (RRFBs), “Piano Key” crosswalks to improve access and safety at the key East/West crossings at Taylor Avenue and A Street crossing on 13th Street. It is not best practice to place RRFBs at every intersection because motorists will begin to disregard them.  These two intersections were chosen to draw pedestrian traffic away from the Belmont and May Street intersections which will require much more complex improvements.  Taylor Avenue is also a defined Safe Route to School.",
       rationale:
-        "Start with intersection improvements across 13th Street to improve neighborhood access and safety. These crossings are critical for connecting the east and west sides of the Heights neighborhood.",
+        "Intersection improvements across 13th Street are a quick and relatively lower cost option to improve neighborhood access and safety that do not require more comprehensive changes to traffic flow. These crossings are critical for connecting the east and west sides of the Heights neighborhood.",
       features: [
         "Curb extensions to shorten crossing distances",
         "Rectangular Rapid Flashing Beacons (RRFBs)",
@@ -85,7 +85,7 @@ export const projects: Project[] = [
         "Calm Traffic & Improve Intersections",
         "Safe, Comfortable Streets for People",
       ],
-      statusSummary: "TBD"
+      statusSummary: "30% Designs"
     },
     es: {
       name: "Cruces Clave Este/Oeste en la Calle 13",
@@ -110,14 +110,14 @@ export const projects: Project[] = [
     id: "taylor-ave-connection",
     slug: "taylor-ave-neighborhood-connection",
     category: "pedestrian",
-    costRange: "$1.2M - $1.6M",
+    costRange: "$2.7M (Including underground utilities)",
     priorityLevel: 5,
     complexityLevel: 3,
     streets: ["Taylor Avenue", "12th Street"],
     intersections: ["12th & Taylor Ave", "13th & Taylor Ave", "12th & Pine St"],
     implementationOrder: 2,
-    currentStatus: "implementationDesign",
-    estimatedCompletion: "spring2027",
+    currentStatus: "30% Designs",
+    estimatedCompletion: "Fall 2027",
     sitemapImage: "/images/projects/project-2-sitemap.png",
     image: "/images/projects/taylor-ave-connection.png",
     imageTag: "design",
@@ -125,11 +125,11 @@ export const projects: Project[] = [
     en: {
       name: "Taylor Avenue Neighborhood Connection",
       description:
-        "Full reconstruction of Taylor Avenue and interim improvements on 12th Street between Pine Street and Taylor Avenue to create a safe, comfortable bicycle and pedestrian route across the Heights.",
+        "Full reconstruction of Taylor Avenue with the addition of a large shared use bike/ped path.  Interim bike lanes added to 12th Street between Pine Street and Taylor Avenue to create a safe, comfortable bicycle and pedestrian route across the Heights.",
       rationale:
-        "Establish Pine Street to Taylor Avenue as a safe, comfortable route across the Heights for people walking and biking. Taylor Avenue is redesigned with a protected two-way cycle track and one-way westbound vehicle traffic.",
+        "Establish Pine Street to Taylor Avenue as the safe, comfortable route across the Heights for people walking and biking. Taylor Avenue is redesigned with a protected bike/ped shared use path and one-way westbound vehicle traffic. This will be a safer and more comfortable east/west route for May Street elementary school students to avoid challenging crossing on May Street.",
       features: [
-        "Protected two-way cycle track on Taylor Avenue",
+        "Wide bike and pedestrian shared use path separated from vehicle traffic",
         "One-way westbound vehicle traffic",
         "Wider sidewalks with improved accessibility",
         "Interim improvements on 12th Street between Pine and Taylor",
@@ -167,25 +167,25 @@ export const projects: Project[] = [
     id: "east-sidewalk-13th",
     slug: "east-sidewalk-13th-street",
     category: "pedestrian",
-    costRange: "$0.8M - $1.1M",
+    costRange: "$1.8M (Including Underground Utilities)",
     priorityLevel: 1,
     complexityLevel: 1,
     streets: ["13th Street"],
     intersections: [],
     implementationOrder: 3,
-    currentStatus: "implementationDesign",
-    estimatedCompletion: "spring2027",
+    currentStatus: "Concept Design",
+    estimatedCompletion: "Summer 2027",
     sitemapImage: "/images/projects/project-3-sitemap.png",
     en: {
       name: "East Sidewalk Along 13th Street",
       description:
-        "New sidewalk and planting strip between (but not at) intersections along the east side of 13th Street. Includes driveway removals for access management where possible.",
+        "New sidewalk and planting strip between (but not at) intersections along the east side of 13th Street. ADA curb ramps at every intersection from Taylor to Belmont Avenues.",
       rationale:
-        "Create a comfortable walking environment along the east side of 13th Street to prepare for future two-way traffic. This is an essential step toward making 13th Street safer for all users.",
+        "Create a comfortable walking environment along the east side of 13th Street. This is the last small project that can be completed until traffic is converted to two-ways on 13th Street.",
       features: [
         "New continuous sidewalk on the east side of 13th Street",
         "Planting strip with street trees",
-        "Driveway removals for better access management",
+        "Driveway removals where feasible for better access management and fewer conflict points with pedestrians",
         "Improved pedestrian environment",
       ],
       goals: [
@@ -219,7 +219,7 @@ export const projects: Project[] = [
     id: "may-st-roundabout",
     slug: "may-street-roundabout",
     category: "circulation",
-    costRange: "$12.8M - $16.4M + Property Acquisition",
+    costRange: "$13.7M - $17.5M + Property Acquisition",
     priorityLevel: 5,
     complexityLevel: 5,
     streets: ["May Street", "13th Street"],
@@ -234,9 +234,11 @@ export const projects: Project[] = [
     en: {
       name: "May Street and 13th Street Roundabout",
       description:
-        "New roundabout at the intersection of 13th and May Streets, designed to address existing issues, help maintain traffic flow, minimize delays, and provide safe crossings. A new two-way cycle track is integrated into the intersection.",
+        "New roundabout at the intersection of 13th and May Streets, designed to address existing issues, help maintain traffic flow, minimize delays, and provide safe crossings. The roundabout may be initially built with a single lane with additional turn lanes added as traffic volumes demand them. A new two-way cycle track is integrated into the intersection.",
       rationale:
-        "Key intersection improvements that can be developed without converting 13th Street to two-way traffic. The roundabout creates a safe route between local schools, parks, and other neighborhood destinations.",
+        "A roundabout at 13th and May Street is essential to manage the level of traffic on 13th Street once it is converted to a two-way street and traffic is directed away from 12th Street. A roundabout provides a smooth traffic flow for emergency vehicles, freight, and through traffic.  Smooth traffic flow also ensures that through-traffic vehicles choose this route instead of 12th Street which will be a slow-speed bike and pedestrian friendly route.
+
+A roundabout also creates a safe route between local schools, parks, and other neighborhood destinations for bikes and pedestrians. On average, roundabouts reduce the number of crashes resulting in injury or loss of life by 78%-82% (Highway Safety Manual, American Association of State Highway and Transportation Officials, Washington, DC, 2010.). Roundabouts increase safety for all users by having fewer conflict points, lower speeds, and shorter crossing distances.",
       features: [
         "New roundabout intersection design",
         "Integrated two-way cycle track",
@@ -276,7 +278,7 @@ export const projects: Project[] = [
     id: "belmont-12th-13th",
     slug: "belmont-12th-13th-intersections",
     category: "circulation",
-    costRange: "$11.8M - $15.1M + Property Acquisition",
+    costRange: "$12.6M - $16.1M + Property Acquisition",
     priorityLevel: 5,
     complexityLevel: 5,
     streets: ["Belmont Avenue", "12th Street", "13th Street"],
